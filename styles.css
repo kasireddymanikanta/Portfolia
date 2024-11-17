@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffffad;
+}
+
+.hero-content h1 span {
+    color: #ff6347;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.bg-image-skills {
+    background: url('skills-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+.bg-image-projects {
+    background: url('projects-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.bg-image-resume {
+    background: url('resume-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.bg-image-contact {
+    background: url('contact-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.skills-grid, .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-card, .project-card {
+    background: rgba(60, 103, 222, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form .btn {
+    width: 100%;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
